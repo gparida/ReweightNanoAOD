@@ -16,7 +16,7 @@ from Configurations.Weights.CrossSectionWeightingModule.CrossSectionWeight impor
 {refinedName}Config = ReweightConfiguration()
 {refinedName}Config.name = '{Name}'
 #QCD_Pt_15to30Config.jsonSampleFile = os.environ['CMSSW_BASE']+'/src/bbtautauAnalysisScripts/analysisCore/config/samples/2016_Samples.json'
-{refinedName}Config.jsonSampleFile = os.environ['CMSSW_BASE']+'/src/MetaData/2016_Samples_25Jan.json'
+{refinedName}Config.jsonSampleFile = os.environ['CMSSW_BASE']+'/src/ReweightNanoAOD/MetaData/2016_Samples_25Jan.json'
 
 with open({refinedName}Config.jsonSampleFile,'r') as jsonFile:
     jsonInfo = json.load(jsonFile)
@@ -42,7 +42,7 @@ except KeyError:
 {refinedName}Config.listOfWeights = list
 """
 
-with open(os.environ['CMSSW_BASE']+'/src/MetaData/2016_Samples_25Jan.json') as jsonFile:
+with open(os.environ['CMSSW_BASE']+'/src/ReweightNanoAOD/MetaData/2016_Samples_25Jan.json') as jsonFile:
     data = json.load(jsonFile)
 
 keys = data.keys()
