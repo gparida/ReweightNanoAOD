@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/python3
 import ROOT
 import sys
 from Utilities.RecursiveLoader import RecursiveLoader

@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 #this class will be our interface for defining a weight and how to get at it.
 import ROOT
 from array import array
