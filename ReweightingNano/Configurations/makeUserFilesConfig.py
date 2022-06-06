@@ -42,7 +42,7 @@ except KeyError:
 {refinedName}Config.listOfWeights = list
 """
 
-with open(os.environ['CMSSW_BASE']+'/src/PhysicsTools/NanoAODTools/Samples/2016_Samples_25Jan.json') as jsonFile:
+with open(os.environ['CMSSW_BASE']+'/src/MetaData/2016_Samples_25Jan.json') as jsonFile:
     data = json.load(jsonFile)
 
 keys = data.keys()
