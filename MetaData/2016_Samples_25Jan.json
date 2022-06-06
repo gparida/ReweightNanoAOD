@@ -1,0 +1,391 @@
+{
+    "DYJetsToLL_M-10to50":{
+        "file": "/data/gparida/Background_Samples/bbtautauAnalysis/2016/ChannelFiles_Camilla_28Jan_2022/DYJetsToLL_M-10to50.root",
+        "file_tt":"/data/gparida/Background_Samples/bbtautauAnalysis/2016/tt_Channel/DY.root",
+        "file_et":"/data/gparida/Background_Samples/bbtautauAnalysis/2016/et_Channel/DY.root",
+        "file_mt":"/data/gparida/Background_Samples/bbtautauAnalysis/2016/mt_Channel/DY.root",
+        "XS": 15890.0,
+        "equivalentLumi":0.06292			
+    },
+    "DYJets_HT-100to200":{
+        "file": "/data/gparida/Background_Samples/bbtautauAnalysis/2016/ChannelFiles_Camilla_28Jan_2022/DYJets_HT-100to200.root",
+        "file_tt":"/data/gparida/Background_Samples/bbtautauAnalysis/2016/tt_Channel/DY.root",
+        "file_et":"/data/gparida/Background_Samples/bbtautauAnalysis/2016/et_Channel/DY.root",
+        "file_mt":"/data/gparida/Background_Samples/bbtautauAnalysis/2016/mt_Channel/DY.root",
+        "XS": 160.7,
+        "equivalentLumi":6.208
+    },
+    "DYJets_HT-200to400":{
+        "file": "/data/gparida/Background_Samples/bbtautauAnalysis/2016/ChannelFiles_Camilla_28Jan_2022/DYJets_HT-200to400.root",
+        "file_tt":"/data/gparida/Background_Samples/bbtautauAnalysis/2016/tt_Channel/DY.root",
+        "file_et":"/data/gparida/Background_Samples/bbtautauAnalysis/2016/et_Channel/DY.root",
+        "file_mt":"/data/gparida/Background_Samples/bbtautauAnalysis/2016/mt_Channel/DY.root",
+        "XS": 48.63,
+        "equivalentLumi":20.5
+    },
+    "DYJets_HT-400to600":{
+        "file": "/data/gparida/Background_Samples/bbtautauAnalysis/2016/ChannelFiles_Camilla_28Jan_2022/DYJets_HT-400to600.root",
+        "file_tt":"/data/gparida/Background_Samples/bbtautauAnalysis/2016/tt_Channel/DY.root",
+        "file_et":"/data/gparida/Background_Samples/bbtautauAnalysis/2016/et_Channel/DY.root",
+        "file_mt":"/data/gparida/Background_Samples/bbtautauAnalysis/2016/mt_Channel/DY.root",
+        "XS": 6.993,
+        "equivalentLumi":142.2
+    },
+    "DYJets_HT-600to800":{
+        "file": "/data/gparida/Background_Samples/bbtautauAnalysis/2016/ChannelFiles_Camilla_28Jan_2022/DYJets_HT-600to800.root",
+        "file_tt":"/data/gparida/Background_Samples/bbtautauAnalysis/2016/tt_Channel/DY.root",
+        "file_et":"/data/gparida/Background_Samples/bbtautauAnalysis/2016/et_Channel/DY.root",
+        "file_mt":"/data/gparida/Background_Samples/bbtautauAnalysis/2016/mt_Channel/DY.root",
+        "XS": 1.761,
+        "equivalentLumi":563.5
+    },
+    "DYJets_HT-800to1200":{
+        "file": "/data/gparida/Background_Samples/bbtautauAnalysis/2016/ChannelFiles_Camilla_28Jan_2022/DYJets_HT-800to1200.root",
+        "file_tt":"/data/gparida/Background_Samples/bbtautauAnalysis/2016/tt_Channel/DY.root",
+        "file_et":"/data/gparida/Background_Samples/bbtautauAnalysis/2016/et_Channel/DY.root",
+        "file_mt":"/data/gparida/Background_Samples/bbtautauAnalysis/2016/mt_Channel/DY.root",
+        "XS": 0.8021,
+        "equivalentLumi":1232.0
+    },
+    "DYJets_HT-1200to2500":{
+        "file": "/data/gparida/Background_Samples/bbtautauAnalysis/2016/ChannelFiles_Camilla_28Jan_2022/DYJets_HT-1200to2500.root",
+        "file_tt":"/data/gparida/Background_Samples/bbtautauAnalysis/2016/tt_Channel/DY.root",
+        "file_et":"/data/gparida/Background_Samples/bbtautauAnalysis/2016/et_Channel/DY.root",
+        "file_mt":"/data/gparida/Background_Samples/bbtautauAnalysis/2016/mt_Channel/DY.root",
+        "XS": 0.1937,
+        "equivalentLumi":5081.0
+    },
+    "DYJets_HT-2500toinf":{
+        "file": "/data/gparida/Background_Samples/bbtautauAnalysis/2016/ChannelFiles_Camilla_28Jan_2022/DYJets_HT-2500toinf.root",        
+        "file_tt":"/data/gparida/Background_Samples/bbtautauAnalysis/2016/tt_Channel/DY.root",
+        "file_et":"/data/gparida/Background_Samples/bbtautauAnalysis/2016/et_Channel/DY.root",
+        "file_mt":"/data/gparida/Background_Samples/bbtautauAnalysis/2016/mt_Channel/DY.root",
+        "XS": 0.003514,
+        "equivalentLumi":269500.0
+    },
+    "WJets_HT-100To200":{
+        "file": "/data/gparida/Background_Samples/bbtautauAnalysis/2016/ChannelFiles_Camilla_28Jan_2022/WJets_HT-100To200.root",
+        "file_tt":"/data/gparida/Background_Samples/bbtautauAnalysis/2016/tt_Channel/DY.root",
+        "file_et":"/data/gparida/Background_Samples/bbtautauAnalysis/2016/et_Channel/DY.root",
+        "file_mt":"/data/gparida/Background_Samples/bbtautauAnalysis/2016/mt_Channel/DY.root",
+        "XS": 1256.0,
+        "equivalentLumi":0.7963	
+    },
+    "WJets_HT-200to400":{
+        "file": "/data/gparida/Background_Samples/bbtautauAnalysis/2016/ChannelFiles_Camilla_28Jan_2022/WJets_HT-200to400.root",
+        "file_tt":"/data/gparida/Background_Samples/bbtautauAnalysis/2016/tt_Channel/DY.root",
+        "file_et":"/data/gparida/Background_Samples/bbtautauAnalysis/2016/et_Channel/DY.root",
+        "file_mt":"/data/gparida/Background_Samples/bbtautauAnalysis/2016/mt_Channel/DY.root",
+        "XS": 335.5,
+        "equivalentLumi":2.98	
+    },
+    "WJets_HT-400to600":{
+        "file": "/data/gparida/Background_Samples/bbtautauAnalysis/2016/ChannelFiles_Camilla_28Jan_2022/WJets_HT-400to600.root",
+        "file_tt":"/data/gparida/Background_Samples/bbtautauAnalysis/2016/tt_Channel/DY.root",
+        "file_et":"/data/gparida/Background_Samples/bbtautauAnalysis/2016/et_Channel/DY.root",
+        "file_mt":"/data/gparida/Background_Samples/bbtautauAnalysis/2016/mt_Channel/DY.root",
+        "XS": 45.25,
+        "equivalentLumi":22.1	
+    },
+    "WJets_HT-600to800":{
+        "file": "/data/gparida/Background_Samples/bbtautauAnalysis/2016/ChannelFiles_Camilla_28Jan_2022/WJets_HT-600to800.root",
+        "file_tt":"/data/gparida/Background_Samples/bbtautauAnalysis/2016/tt_Channel/DY.root",
+        "file_et":"/data/gparida/Background_Samples/bbtautauAnalysis/2016/et_Channel/DY.root",
+        "file_mt":"/data/gparida/Background_Samples/bbtautauAnalysis/2016/mt_Channel/DY.root",
+        "XS": 10.97,
+        "equivalentLumi":91.16	
+    },
+    "WJets_HT-800to1200":{
+        "file": "/data/gparida/Background_Samples/bbtautauAnalysis/2016/ChannelFiles_Camilla_28Jan_2022/WJets_HT-800to1200.root",
+        "file_tt":"/data/gparida/Background_Samples/bbtautauAnalysis/2016/tt_Channel/DY.root",
+        "file_et":"/data/gparida/Background_Samples/bbtautauAnalysis/2016/et_Channel/DY.root",
+        "file_mt":"/data/gparida/Background_Samples/bbtautauAnalysis/2016/mt_Channel/DY.root",
+        "XS": 4.933	,
+        "equivalentLumi":202.7	
+    },
+    "WJets_HT-1200to2500":{
+        "file": "/data/gparida/Background_Samples/bbtautauAnalysis/2016/ChannelFiles_Camilla_28Jan_2022/WJets_HT-1200to2500.root",
+        "file_tt":"/data/gparida/Background_Samples/bbtautauAnalysis/2016/tt_Channel/DY.root",
+        "file_et":"/data/gparida/Background_Samples/bbtautauAnalysis/2016/et_Channel/DY.root",
+        "file_mt":"/data/gparida/Background_Samples/bbtautauAnalysis/2016/mt_Channel/DY.root",
+        "XS": 1.16,
+        "equivalentLumi":862.1	
+    },
+    "WJets_HT-2500toInf":{
+        "file": "/data/gparida/Background_Samples/bbtautauAnalysis/2016/ChannelFiles_Camilla_28Jan_2022/WJets_HT-2500toInf.root",
+        "file_tt":"/data/gparida/Background_Samples/bbtautauAnalysis/2016/tt_Channel/DY.root",
+        "file_et":"/data/gparida/Background_Samples/bbtautauAnalysis/2016/et_Channel/DY.root",
+        "file_mt":"/data/gparida/Background_Samples/bbtautauAnalysis/2016/mt_Channel/DY.root",
+        "XS": 0.008001,
+        "equivalentLumi":114900.0		
+    },
+    "ST_tW_antitop_5f":{
+        "file": "/data/gparida/Background_Samples/bbtautauAnalysis/2016/ChannelFiles_Camilla_28Jan_2022/ST_tW_antitop_5f.root",
+        "file_tt":"/data/gparida/Background_Samples/bbtautauAnalysis/2016/tt_Channel/DY.root",
+        "file_et":"/data/gparida/Background_Samples/bbtautauAnalysis/2016/et_Channel/DY.root",
+        "file_mt":"/data/gparida/Background_Samples/bbtautauAnalysis/2016/mt_Channel/DY.root",
+        "XS": 34.97,
+        "equivalentLumi":28.2
+    },
+    "ST_tW_top_5f":{
+        "file": "/data/gparida/Background_Samples/bbtautauAnalysis/2016/ChannelFiles_Camilla_28Jan_2022/ST_tW_top_5f.root",
+        "file_tt":"/data/gparida/Background_Samples/bbtautauAnalysis/2016/tt_Channel/DY.root",
+        "file_et":"/data/gparida/Background_Samples/bbtautauAnalysis/2016/et_Channel/DY.root",
+        "file_mt":"/data/gparida/Background_Samples/bbtautauAnalysis/2016/mt_Channel/DY.root",
+        "XS": 34.91,
+        "equivalentLumi":28.22
+    },
+    "ST_t-channel_antitop_4f":{
+        "file": "/data/gparida/Background_Samples/bbtautauAnalysis/2016/ChannelFiles_Camilla_28Jan_2022/ST_t-channel_antitop_4f.root",
+        "file_tt":"/data/gparida/Background_Samples/bbtautauAnalysis/2016/tt_Channel/ST_s-channel_4f.root",
+        "file_et":"/data/gparida/Background_Samples/bbtautauAnalysis/2016/et_Channel/ST_s-channel_4f.root",
+        "file_mt":"/data/gparida/Background_Samples/bbtautauAnalysis/2016/mt_Channel/ST_s-channel_4f.root",
+        "XS":69.09,
+        "equivalentlumi":12.79	
+    },
+    "ST_t-channel_top_4f":{
+        "file": "/data/gparida/Background_Samples/bbtautauAnalysis/2016/ChannelFiles_Camilla_28Jan_2022/ST_t-channel_top_4f.root",
+        "file_tt":"/data/gparida/Background_Samples/bbtautauAnalysis/2016/tt_Channel/ST_s-channel_4f.root",
+        "file_et":"/data/gparida/Background_Samples/bbtautauAnalysis/2016/et_Channel/ST_s-channel_4f.root",
+        "file_mt":"/data/gparida/Background_Samples/bbtautauAnalysis/2016/mt_Channel/ST_s-channel_4f.root",
+        "XS":115.3,
+        "equivalentlumi":7.547	
+    },
+    "ST_s-channel_4f":{
+        "file": "/data/gparida/Background_Samples/bbtautauAnalysis/2016/ChannelFiles_Camilla_28Jan_2022/ST_s-channel_4f.root",
+        "file_tt":"/data/gparida/Background_Samples/bbtautauAnalysis/2016/tt_Channel/ST_s-channel_4f.root",
+        "file_et":"/data/gparida/Background_Samples/bbtautauAnalysis/2016/et_Channel/ST_s-channel_4f.root",
+        "file_mt":"/data/gparida/Background_Samples/bbtautauAnalysis/2016/mt_Channel/ST_s-channel_4f.root",
+        "XS":3.549,
+        "equivalentlumi":118.1
+    },
+    "QCD_HT100to200":{
+        "file": "/data/gparida/Background_Samples/bbtautauAnalysis/2016/ChannelFiles_Camilla_28Jan_2022/QCD_HT100to200.root",
+        "file_tt":"/data/gparida/Background_Samples/bbtautauAnalysis/2016/tt_Channel/DY.root",
+        "file_et":"/data/gparida/Background_Samples/bbtautauAnalysis/2016/et_Channel/DY.root",
+        "file_mt":"/data/gparida/Background_Samples/bbtautauAnalysis/2016/mt_Channel/DY.root",
+        "XS": 23630000.0,
+        "equivalentLumi":4.231e-05
+    },
+    "QCD_HT200to300":{
+        "file": "/data/gparida/Background_Samples/bbtautauAnalysis/2016/ChannelFiles_Camilla_28Jan_2022/QCD_HT200to300.root",
+        "file_tt":"/data/gparida/Background_Samples/bbtautauAnalysis/2016/tt_Channel/DY.root",
+        "file_et":"/data/gparida/Background_Samples/bbtautauAnalysis/2016/et_Channel/DY.root",
+        "file_mt":"/data/gparida/Background_Samples/bbtautauAnalysis/2016/mt_Channel/DY.root",
+        "XS": 1554000.0,
+        "equivalentLumi":0.0006436	
+    },
+    "QCD_HT300to500":{
+        "file": "/data/gparida/Background_Samples/bbtautauAnalysis/2016/ChannelFiles_Camilla_28Jan_2022/QCD_HT300to500.root",
+        "file_tt":"/data/gparida/Background_Samples/bbtautauAnalysis/2016/tt_Channel/DY.root",
+        "file_et":"/data/gparida/Background_Samples/bbtautauAnalysis/2016/et_Channel/DY.root",
+        "file_mt":"/data/gparida/Background_Samples/bbtautauAnalysis/2016/mt_Channel/DY.root",
+        "XS": 323800.0,
+        "equivalentLumi":0.003088	
+    },
+    "QCD_HT500to700":{
+        "file": "/data/gparida/Background_Samples/bbtautauAnalysis/2016/ChannelFiles_Camilla_28Jan_2022/QCD_HT500to700.root",
+        "file_tt":"/data/gparida/Background_Samples/bbtautauAnalysis/2016/tt_Channel/DY.root",
+        "file_et":"/data/gparida/Background_Samples/bbtautauAnalysis/2016/et_Channel/DY.root",
+        "file_mt":"/data/gparida/Background_Samples/bbtautauAnalysis/2016/mt_Channel/DY.root",
+        "XS": 30280.0,
+        "equivalentLumi":0.03302	
+    },
+    "QCD_HT700to1000":{
+        "file": "/data/gparida/Background_Samples/bbtautauAnalysis/2016/ChannelFiles_Camilla_28Jan_2022/QCD_HT700to1000.root",
+        "file_tt":"/data/gparida/Background_Samples/bbtautauAnalysis/2016/tt_Channel/DY.root",
+        "file_et":"/data/gparida/Background_Samples/bbtautauAnalysis/2016/et_Channel/DY.root",
+        "file_mt":"/data/gparida/Background_Samples/bbtautauAnalysis/2016/mt_Channel/DY.root",
+        "XS": 6392.0,
+        "equivalentLumi":0.1565		
+    },
+    "QCD_HT1000to1500":{
+        "file": "/data/gparida/Background_Samples/bbtautauAnalysis/2016/ChannelFiles_Camilla_28Jan_2022/QCD_HT1000to1500.root",
+        "file_tt":"/data/gparida/Background_Samples/bbtautauAnalysis/2016/tt_Channel/DY.root",
+        "file_et":"/data/gparida/Background_Samples/bbtautauAnalysis/2016/et_Channel/DY.root",
+        "file_mt":"/data/gparida/Background_Samples/bbtautauAnalysis/2016/mt_Channel/DY.root",
+        "XS": 1118.0,
+        "equivalentLumi":0.8946			
+    },
+    "QCD_HT1500to2000":{
+        "file": "/data/gparida/Background_Samples/bbtautauAnalysis/2016/ChannelFiles_Camilla_28Jan_2022/QCD_HT1500to2000.root",
+        "file_tt":"/data/gparida/Background_Samples/bbtautauAnalysis/2016/tt_Channel/DY.root",
+        "file_et":"/data/gparida/Background_Samples/bbtautauAnalysis/2016/et_Channel/DY.root",
+        "file_mt":"/data/gparida/Background_Samples/bbtautauAnalysis/2016/mt_Channel/DY.root",
+        "XS": 108.9,
+        "equivalentLumi":9.187			
+    },
+    "QCD_HT2000toinf":{
+        "file": "/data/gparida/Background_Samples/bbtautauAnalysis/2016/ChannelFiles_Camilla_28Jan_2022/QCD_HT2000toinf.root",
+        "file_tt":"/data/gparida/Background_Samples/bbtautauAnalysis/2016/tt_Channel/DY.root",
+        "file_et":"/data/gparida/Background_Samples/bbtautauAnalysis/2016/et_Channel/DY.root",
+        "file_mt":"/data/gparida/Background_Samples/bbtautauAnalysis/2016/mt_Channel/DY.root",
+        "XS": 21.93,
+        "equivalentLumi":45.6			
+    },
+    "TTToHadronic":{
+        "file": "/data/gparida/Background_Samples/bbtautauAnalysis/2016/ChannelFiles_Camilla_28Jan_2022/TTToHadronic.root",
+        "file_tt":"/data/gparida/Background_Samples/bbtautauAnalysis/2016/tt_Channel/DY.root",
+        "file_et":"/data/gparida/Background_Samples/bbtautauAnalysis/2016/et_Channel/DY.root",
+        "file_mt":"/data/gparida/Background_Samples/bbtautauAnalysis/2016/mt_Channel/DY.root",
+        "XS": 377.96,
+	    "equivalentLumi":1.433,
+	    "forcedGenWeight":1.0			
+    },
+    "TTToSemiLeptonic":{
+        "file": "/data/gparida/Background_Samples/bbtautauAnalysis/2016/ChannelFiles_Camilla_28Jan_2022/TTToSemiLeptonic.root",
+        "file_tt":"/data/gparida/Background_Samples/bbtautauAnalysis/2016/tt_Channel/DY.root",
+        "file_et":"/data/gparida/Background_Samples/bbtautauAnalysis/2016/et_Channel/DY.root",
+        "file_mt":"/data/gparida/Background_Samples/bbtautauAnalysis/2016/mt_Channel/DY.root",
+        "XS":374.29,
+	    "equivalentLumi":1.433,
+	    "forcedGenWeight":1.0			
+    },
+    "TTTo2L2Nu":{
+        "file": "/data/gparida/Background_Samples/bbtautauAnalysis/2016/ChannelFiles_Camilla_28Jan_2022/TTTo2L2Nu.root",
+        "file_tt":"/data/gparida/Background_Samples/bbtautauAnalysis/2016/tt_Channel/DY.root",
+        "file_et":"/data/gparida/Background_Samples/bbtautauAnalysis/2016/et_Channel/DY.root",
+        "file_mt":"/data/gparida/Background_Samples/bbtautauAnalysis/2016/mt_Channel/DY.root",
+        "XS":87.31,
+	    "equivalentLumi":1.433,
+	    "forcedGenWeight":1.0			
+    },
+    "WWTo1L1Nu2Q":{
+        "file": "/data/gparida/Background_Samples/bbtautauAnalysis/2016/ChannelFiles_Camilla_28Jan_2022/WWTo1L1Nu2Q.root",
+        "file_tt":"/data/gparida/Background_Samples/bbtautauAnalysis/2016/tt_Channel/ST_s-channel_4f.root",
+        "file_et":"/data/gparida/Background_Samples/bbtautauAnalysis/2016/et_Channel/ST_s-channel_4f.root",
+        "file_mt":"/data/gparida/Background_Samples/bbtautauAnalysis/2016/mt_Channel/ST_s-channel_4f.root",
+        "XS":45.68,
+        "equivalentlumi":8.497	
+    },
+    "WZTo1L1nu2q":{
+        "file": "/data/gparida/Background_Samples/bbtautauAnalysis/2016/ChannelFiles_Camilla_28Jan_2022/WZTo1L1nu2q.root",
+        "file_tt":"/data/gparida/Background_Samples/bbtautauAnalysis/2016/tt_Channel/ST_s-channel_4f.root",
+        "file_et":"/data/gparida/Background_Samples/bbtautauAnalysis/2016/et_Channel/ST_s-channel_4f.root",
+        "file_mt":"/data/gparida/Background_Samples/bbtautauAnalysis/2016/mt_Channel/ST_s-channel_4f.root",
+        "XS":10.73,
+        "equivalentlumi":31.31
+    },
+    "WZTo2Q2Nu":{
+        "file": "/data/gparida/Background_Samples/bbtautauAnalysis/2016/ChannelFiles_Camilla_28Jan_2022/WZTo2Q2Nu.root",
+        "file_tt":"/data/gparida/Background_Samples/bbtautauAnalysis/2016/tt_Channel/ST_s-channel_4f.root",
+        "file_et":"/data/gparida/Background_Samples/bbtautauAnalysis/2016/et_Channel/ST_s-channel_4f.root",
+        "file_mt":"/data/gparida/Background_Samples/bbtautauAnalysis/2016/mt_Channel/ST_s-channel_4f.root",
+        "XS":6.317,
+        "equivalentlumi":52.58
+    },
+    "ZZTo2Q2Nu":{
+        "file": "/data/gparida/Background_Samples/bbtautauAnalysis/2016/ChannelFiles_Camilla_28Jan_2022/ZZTo2Q2Nu.root",
+        "file_tt":"/data/gparida/Background_Samples/bbtautauAnalysis/2016/tt_Channel/ST_s-channel_4f.root",
+        "file_et":"/data/gparida/Background_Samples/bbtautauAnalysis/2016/et_Channel/ST_s-channel_4f.root",
+        "file_mt":"/data/gparida/Background_Samples/bbtautauAnalysis/2016/mt_Channel/ST_s-channel_4f.root",
+        "XS":4.033,
+        "equivalentlumi":93.43	
+    },
+    "RadionTohhtohtatahbb_M-1000":{
+        "file": "/data/gparida/Background_Samples/bbtautauAnalysis/2016/ChannelFiles_Camilla_28Jan_2022/RadionTohhtohtatahbb_M-1000.root",
+        "file_tt":"/data/gparida/Background_Samples/bbtautauAnalysis/2016/tt_Channel/RadionHH_M1000.root",
+        "file_et":"/data/gparida/Background_Samples/bbtautauAnalysis/2016/et_Channel/RadionHH_M1000.root",
+        "file_mt":"/data/gparida/Background_Samples/bbtautauAnalysis/2016/mt_Channel/RadionHH_M1000.root",
+        "XS":0.06206400165
+        },
+    "RadionTohhtohtatahbb_M-1200":{
+        "file": "/data/gparida/Background_Samples/bbtautauAnalysis/2016/ChannelFiles_Camilla_28Jan_2022/RadionTohhtohtatahbb_M-1200.root",
+        "file_tt":"/data/gparida/Background_Samples/bbtautauAnalysis/2016/tt_Channel/RadionHH_M1200.root",
+        "file_et":"/data/gparida/Background_Samples/bbtautauAnalysis/2016/et_Channel/RadionHH_M1200.root",
+        "file_mt":"/data/gparida/Background_Samples/bbtautauAnalysis/2016/mt_Channel/RadionHH_M1200.root",
+        "XS":1.0
+        },
+    "RadionTohhTohtatahbb_M-1400":{
+        "file": "/data/gparida/Background_Samples/bbtautauAnalysis/2016/ChannelFiles_Camilla_28Jan_2022/RadionTohhTohtatahbb_M-1400.root",
+        "file_tt":"/data/gparida/Background_Samples/bbtautauAnalysis/2016/tt_Channel/RadionHH_M1400.root",
+        "file_et":"/data/gparida/Background_Samples/bbtautauAnalysis/2016/et_Channel/RadionHH_M1400.root",
+        "file_mt":"/data/gparida/Background_Samples/bbtautauAnalysis/2016/mt_Channel/RadionHH_M1400.root",
+        "XS":1.0
+        },
+    "RadionTohhtohtatahbb_M-1600":{
+        "file": "/data/gparida/Background_Samples/bbtautauAnalysis/2016/ChannelFiles_Camilla_28Jan_2022/RadionTohhtohtatahbb_M-1600.root",
+        "file_tt":"/data/gparida/Background_Samples/bbtautauAnalysis/2016/tt_Channel/RadionHH_M1600.root",
+        "file_et":"/data/gparida/Background_Samples/bbtautauAnalysis/2016/et_Channel/RadionHH_M1600.root",
+        "file_mt":"/data/gparida/Background_Samples/bbtautauAnalysis/2016/mt_Channel/RadionHH_M1600.root",
+        "XS":1.0
+        },
+    "RadionTohhtohtatahbb_M-1800":{
+        "file": "/data/gparida/Background_Samples/bbtautauAnalysis/2016/ChannelFiles_Camilla_28Jan_2022/RadionTohhtohtatahbb_M-1800.root",
+        "file_tt":"/data/gparida/Background_Samples/bbtautauAnalysis/2016/tt_Channel/RadionHH_M1800.root",
+        "file_et":"/data/gparida/Background_Samples/bbtautauAnalysis/2016/et_Channel/RadionHH_M1800.root",
+        "file_mt":"/data/gparida/Background_Samples/bbtautauAnalysis/2016/mt_Channel/RadionHH_M1800.root",
+        "XS":1.0
+        },
+    "Radiontohhtohtatahbb_M-2000":{
+        "file": "/data/gparida/Background_Samples/bbtautauAnalysis/2016/ChannelFiles_Camilla_28Jan_2022/Radiontohhtohtatahbb_M-2000.root",
+        "file_tt":"/data/gparida/Background_Samples/bbtautauAnalysis/2016/tt_Channel/RadionHH_M2000.root",
+        "file_et":"/data/gparida/Background_Samples/bbtautauAnalysis/2016/et_Channel/RadionHH_M2000.root",
+        "file_mt":"/data/gparida/Background_Samples/bbtautauAnalysis/2016/mt_Channel/RadionHH_M2000.root",
+        "XS":0.0033872266
+        },
+    "Radiontohhtohtatahbb_M-2500":{
+        "file": "/data/gparida/Background_Samples/bbtautauAnalysis/2016/ChannelFiles_Camilla_28Jan_2022/Radiontohhtohtatahbb_M-2500.root",
+        "file_tt":"/data/gparida/Background_Samples/bbtautauAnalysis/2016/tt_Channel/RadionHH_M2500.root",
+        "file_et":"/data/gparida/Background_Samples/bbtautauAnalysis/2016/et_Channel/RadionHH_M2500.root",
+        "file_mt":"/data/gparida/Background_Samples/bbtautauAnalysis/2016/mt_Channel/RadionHH_M2500.root",
+        "XS":0.00101943837
+        },
+    "Radiontohhtohtatahbb_M-3000":{
+        "file": "/data/gparida/Background_Samples/bbtautauAnalysis/2016/ChannelFiles_Camilla_28Jan_2022/Radiontohhtohtatahbb_M-3000.root",
+        "file_tt":"/data/gparida/Background_Samples/bbtautauAnalysis/2016/tt_Channel/RadionHH_M3000.root",
+        "file_et":"/data/gparida/Background_Samples/bbtautauAnalysis/2016/et_Channel/RadionHH_M3000.root",
+        "file_mt":"/data/gparida/Background_Samples/bbtautauAnalysis/2016/mt_Channel/RadionHH_M3000.root",
+        "XS":0.0003270393
+        },
+     "Radiontohhtohtatahbb_M-3500":{
+        "file": "/data/gparida/Background_Samples/bbtautauAnalysis/2016/ChannelFiles_Camilla_28Jan_2022/Radiontohhtohtatahbb_M-3500.root",
+        "file_tt":"/data/gparida/Background_Samples/bbtautauAnalysis/2016/tt_Channel/RadionHH_M3500.root",
+        "file_et":"/data/gparida/Background_Samples/bbtautauAnalysis/2016/et_Channel/RadionHH_M3500.root",
+        "file_mt":"/data/gparida/Background_Samples/bbtautauAnalysis/2016/mt_Channel/RadionHH_M3500.root",
+        "XS":0.00011137347
+        },
+    "Radiontohhtohtatahbb_M-4000":{
+        "file": "/data/gparida/Background_Samples/bbtautauAnalysis/2016/ChannelFiles_Camilla_28Jan_2022/Radiontohhtohtatahbb_M-4000.root",
+        "file_tt":"/data/gparida/Background_Samples/bbtautauAnalysis/2016/tt_Channel/RadionHH_M4000.root",
+        "file_et":"/data/gparida/Background_Samples/bbtautauAnalysis/2016/et_Channel/RadionHH_M4000.root",
+        "file_mt":"/data/gparida/Background_Samples/bbtautauAnalysis/2016/mt_Channel/RadionHH_M4000.root",
+        "XS":0.0000616161
+        },
+    "Radiontohhtohtatahbb_M-4500":{
+        "file": "/data/gparida/Background_Samples/bbtautauAnalysis/2016/ChannelFiles_Camilla_28Jan_2022/Radiontohhtohtatahbb_M-4500.root",
+        "file_tt":"/data/gparida/Background_Samples/bbtautauAnalysis/2016/tt_Channel/RadionHH_M4500.root",
+        "file_et":"/data/gparida/Background_Samples/bbtautauAnalysis/2016/et_Channel/RadionHH_M4500.root",
+        "file_mt":"/data/gparida/Background_Samples/bbtautauAnalysis/2016/mt_Channel/RadionHH_M4500.root",
+        "XS":1.0
+        },
+    "Data":{
+        "file": "/data/gparida/Background_Samples/bbtautauAnalysis/2016/ChannelFiles_Camilla_28Jan_2022/Data.root",
+        "file_tt":"/data/gparida/Background_Samples/bbtautauAnalysis/2016/tt_Channel/Data.root",
+        "file_et":"/data/gparida/Background_Samples/bbtautauAnalysis/2016/et_Channel/Data.root",
+        "file_mt":"/data/gparida/Background_Samples/bbtautauAnalysis/2016/mt_Channel/Data.root"
+        }
+}
+
+
+
+    
+
+
+
+
+
+
+    
+
+
+
+
+
+
+    
+
+    
+
+
+
