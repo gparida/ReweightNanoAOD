@@ -3,7 +3,7 @@ import os
 from Configurations.Weights.WeightDefinition import Weight as Weight
 
 
-triggerWeightPath = os.environ['CMSSW_BASE'] + '/src/PhysicsTools/NanoAODTools/python/postprocessing/data/TriggerWeight/' # path where the SF root file is
+#triggerWeightPath = os.environ['CMSSW_BASE'] + '/src/PhysicsTools/NanoAODTools/python/postprocessing/data/TriggerWeight/' # path where the SF root file is
 
 def calculateTriggerWeight(self, theTree):
     triggerWeighting = 1.0
@@ -72,7 +72,8 @@ def calculateTriggerWeight_Down(self, theTree, uncert):
 
 triggerWeight_2016 = Weight()
 triggerWeight_2016.name = 'triggerWeighting'
-triggerWeight_2016.sfFilePath = triggerWeightPath+'MetTriggerSFs.root'
+#triggerWeight_2016.sfFilePath = triggerWeightPath+'MetTriggerSFs.root'
+triggerWeight_2016.sfFilePath = 'MetTriggerSFs.root'
 triggerWeight_2016.sfHistoFile = ROOT.TFile(triggerWeight_2016.sfFilePath)
 triggerWeight_2016.sfHistoDir = triggerWeight_2016.sfHistoFile.GetDirectory("SF")
 triggerWeight_2016.sfHisto = triggerWeight_2016.sfHistoDir.Get("MET_SFRebin")
