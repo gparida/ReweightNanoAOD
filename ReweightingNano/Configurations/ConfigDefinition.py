@@ -1,5 +1,5 @@
 import ROOT
-import Weights.WeightDefinition 
+import .Weights.WeightDefinition 
 
 class ReweightConfiguration():
     def __init__(self):
