@@ -2,7 +2,7 @@
 import ROOT
 import os
 import json
-from weightList import *
+from .weightList import *
 
 from Configurations.ConfigDefinition import ReweightConfiguration
 from Configurations.Weights.CrossSectionWeightingModule.CrossSectionWeight import crossSectionWeight as crossSectionWeight
