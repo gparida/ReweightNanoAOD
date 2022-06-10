@@ -3,7 +3,7 @@ import os
 from Configurations.Weights.WeightDefinition import Weight as Weight
 #from Configurations.Weights import b2gWeightPath
 
-b2gWeightPath = os.environ['CMSSW_BASE'] + '/src/PhysicsTools/NanoAODTools/python/postprocessing/data/pileup/'
+b2gWeightPath = os.environ['CMSSW_BASE'] + '/src/ReweightNanoAOD/MetaData/PileupReweighting/'
 
 def calculatePileupWeight(self, theTree):
     pileupWeighting = 1.0
