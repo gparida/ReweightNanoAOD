@@ -34,7 +34,7 @@ def calculatePileupWeight_Down(self, theTree, uncert):
 
 pileupWeight_2016 = Weight()
 pileupWeight_2016.name = 'pileupWeighting'
-pileupWeight_2016.jsonFile = b2gWeightPath+'2016postVFP_UL/puWeights.json'
+pileupWeight_2016.jsonFile = b2gWeightPath+'2016postVFP_UL/puWeights.json.gz'
 pileupWeight_2016.CalculateWeight = calculatePileupWeight
 pileupWeight_2016.hasUpDownUncertainties = True
 pileupWeight_2016.uncertaintyVariationList = [
