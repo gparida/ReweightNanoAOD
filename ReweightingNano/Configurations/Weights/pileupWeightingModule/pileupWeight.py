@@ -11,21 +11,21 @@ def calculatePileupWeight(self, theTree):
     evaluator = _core.CorrectionSet.from_file(self.jsonFile)
 
 
-    pileupWeighting = evaluator["Collisions16_UltraLegacy_goldenJSON"].evaluate(theTree.Pileup_nPU,"nominal")
+    pileupWeighting = evaluator["Collisions16_UltraLegacy_goldenJSON"].evaluate(theTree.Pileup_nTrueInt,"nominal")
     self.value[0] = pileupWeighting
 
 def calculatePileupWeight_Up(self, theTree, uncert):
     pileupWeighting_Up = 1.0
     evaluator = _core.CorrectionSet.from_file(self.jsonFile)
 
-    pileupWeighting_Up = evaluator["Collisions16_UltraLegacy_goldenJSON"].evaluate(theTree.Pileup_nPU,"up")
+    pileupWeighting_Up = evaluator["Collisions16_UltraLegacy_goldenJSON"].evaluate(theTree.Pileup_nTrueInt,"up")
     self.uncertaintyVariationArrays[uncert][0] = pileupWeighting_Up
 
 def calculatePileupWeight_Down(self, theTree, uncert):
     pileupWeighting_Down = 1.0
     evaluator = _core.CorrectionSet.from_file(self.jsonFile)
     
-    pileupWeighting_Down = evaluator["Collisions16_UltraLegacy_goldenJSON"].evaluate(theTree.Pileup_nPU,"down")
+    pileupWeighting_Down = evaluator["Collisions16_UltraLegacy_goldenJSON"].evaluate(theTree.Pileup_nTrueInt,"down")
     self.uncertaintyVariationArrays[uncert][0] = pileupWeighting_Down
 
 
