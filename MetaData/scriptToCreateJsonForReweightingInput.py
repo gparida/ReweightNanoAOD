@@ -14,14 +14,17 @@ args = parser.parse_args()
 base_path = Path(args.basePath)
 #searchPhrase = "_13TeV"
 finalDict = dict()
-keyname=[files.name[-5:] for files in list(base_path.glob("*.root"))]
+keyname=[files.name[:-5] for files in list(base_path.glob("*.root"))]
 print (keyname)
 
 {x:dict() for x in keyname}
 
 for key in keyname:
-    print (key, type((key)))
+    filePath = args.basePath + "/" + key + ".root"
+    finalDict[key] = {"file":filePath, "XS": 0, "kFac": 0, "EquiLumi":0}
 
+
+print (finalDict)
 
 
 
