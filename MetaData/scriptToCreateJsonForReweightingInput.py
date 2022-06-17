@@ -5,6 +5,7 @@ import json
 
 parser = argparse.ArgumentParser(description='A script to create the skeleton of the samples JSON file which has the dataset name key. It also has the path to the file and keys for XS and Kfactor lumi etc')
 parser.add_argument('-b', '--basePath',help="Enter base path of Location of Root Files",required=True)
+parser.add_argument('-s','--savePath',help="where to dump the json file along with the name")
 #parser.add_argument('--haddDir',help="Folder in which the files are present",required=True)
 #parser.add_argument('--savePath',help="Place where to store the hadded files",required=True)
 args = parser.parse_args()
@@ -26,6 +27,8 @@ for key in keyname:
 
 print (finalDict)
 
+with open(args.savePath, 'w') as writeFile:
+        json.dump(finalDict, writeFile, indent=4)
 
 
 
@@ -34,30 +37,29 @@ print (finalDict)
 
 
 
-#f = open("fileList.json", "a")
-#f.write('{'+'\n')
 
-#for files in list(base_path.glob("*.root")):
-#    keyname = files.name[-5:]
-#
-#
-#    if not campaigns.is_dir():
-#        continue
-#
-#    dataset_path = Path(args.basePath+"/"+campaigns.name+"/")
-#    for dataset in dataset_path.iterdir():
-#        if not dataset.is_dir():
-#            continue
-#
-#        if searchPhrase in dataset.name:
-#            print (f"{dataset.name} has  "+searchPhrase+" in it")
-#            #print(dataset.name+" has "+searchPhrase+" in it ")
-#        keyname = f'{dataset.name[:dataset.name.index(searchPhrase)]}'
-#        listDict[keyname]=args.basePath+'/'+campaigns.name+'/'+dataset.name+'/*.root'
-#        #keyname = dataset.name[:dataset.name.index(searchPhrase)]
-#        #f.write('\t'+'"'+keyname+'":"'+args.basePath+'/'+campaigns.name+'/'+dataset.name+'/*.root'+'",'+'\n')
-#
-##result = json.dumps(listDict, indent = 4, sort_keys = True)
-##print (result)
-#with open("fileList.json", 'w') as writeFile:
-#        json.dump(listDict, writeFile, indent=4)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
