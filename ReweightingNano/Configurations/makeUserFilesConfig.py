@@ -99,8 +99,8 @@ for name in keys:
         with open('UserConfigs/'+args.year+'/'+name.replace("-","_")+'Config.py','w+') as file_out:
             print (string_out_data)
             file_out.write(string_out_data.format(refinedName=name.replace("-","_"),Name=name,jsonName=args.name))
-
-    with open('UserConfigs/'+args.year+'/'+name.replace("-","_")+'Config.py','w+') as file_out:
-        file_out.write(string_out.format(refinedName=name.replace("-","_"),Name=name,jsonName=args.name))
+    else:
+        with open('UserConfigs/'+args.year+'/'+name.replace("-","_")+'Config.py','w+') as file_out:
+            file_out.write(string_out.format(refinedName=name.replace("-","_"),Name=name,jsonName=args.name))
 
 
