@@ -21,7 +21,13 @@ config_names=[files.as_posix() for files in list(config_path.glob("*Config*.py")
 
 with open('configDefaultPass_'+args.year+".py", 'w+') as fp:
     fp.write('configList=[\n')
-    fp.write('",\n'.join(config_names))
-    fp.write('\n]')
+    for count,na in config_names:
+        if count != len(config_names)-1:
+            fp.write('"'+na+'",\n')
+        else:
+            fp.write('"'+na+'"\n')
+
+    
+    fp.write(']')
 
 print (config_names)
