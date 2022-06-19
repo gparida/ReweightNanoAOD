@@ -3,6 +3,7 @@ from pathlib import Path
 import argparse
 import json
 import os
+import pickle
 
 
 parser = argparse.ArgumentParser(description='Script to store the path to all the user configs for a specifc year and create a defaulConfigPass')
@@ -17,5 +18,8 @@ config_path = Path("Configurations/UserConfigs/"+args.year+"/")
 #.resolve() method gives full path /afs included
 
 config_names=[files.as_posix() for files in list(config_path.glob("*Config*.py"))]
+
+with open('configDefaultPass_'+args.year+".py", 'wb') as fp:
+    pickle.dump(config_names,fp)
 
 print (config_names)
