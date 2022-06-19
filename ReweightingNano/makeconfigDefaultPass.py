@@ -10,9 +10,11 @@ parser.add_argument('-y','--year',help="so that we know which year folder we nee
 args = parser.parse_args()
 
 config_path = Path("Configurations/UserConfigs/"+args.year+"/")
-config_dict = dict()
+#config_dict = dict()
 
-#config_names=["Configurations/UserConfigs/"+args.year+"/"+files.name[:] for files in list(config_path.glob("*Config*.py"))]
+#config_names=["Configurations/UserConfigs/"+args.year+"/"+files.name[:] for files in list(config_path.glob("*Config*.py"))] # the following thing also does a similar thing
+#as_posix() method
+#.resolve() method gives full path /afs included
 
 config_names=[files.as_posix() for files in list(config_path.glob("*Config*.py"))]
 
