@@ -20,7 +20,7 @@ config_path = Path("Configurations/UserConfigs/"+args.year+"/")
 config_names=[files.as_posix() for files in list(config_path.glob("*Config*.py"))]
 
 with open('configDefaultPass_'+args.year+".py", 'wb') as fp:
-    fp.write('configList=['+'\n')
+    fp.write('configList=[\n')
     fp.write(',\n'.join(config_names))
     fp.write(']')
 
