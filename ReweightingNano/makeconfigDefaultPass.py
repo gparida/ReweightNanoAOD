@@ -20,6 +20,8 @@ config_path = Path("Configurations/UserConfigs/"+args.year+"/")
 config_names=[files.as_posix() for files in list(config_path.glob("*Config*.py"))]
 
 with open('configDefaultPass_'+args.year+".py", 'wb') as fp:
-    pickle.dump(config_names,fp)
+    fp.write('configList=['+'\n')
+    fp.write(',\n'.join(config_names))
+    fp.write(']')
 
 print (config_names)
