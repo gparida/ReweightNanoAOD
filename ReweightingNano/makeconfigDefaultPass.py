@@ -12,8 +12,8 @@ args = parser.parse_args()
 config_path = Path("Configurations/UserConfigs/"+args.year+"/")
 config_dict = dict()
 
-config_names=["Configurations/UserConfigs/"+args.year+"/"+files.name[:] for files in list(config_path.glob("*Config*.py"))]
+#config_names=["Configurations/UserConfigs/"+args.year+"/"+files.name[:] for files in list(config_path.glob("*Config*.py"))]
 
-config_names=[files for files in list(config_path.glob("*Config*.py"))]
+config_names=[files.as_posix() for files in list(config_path.glob("*Config*.py"))]
 
 print (config_names)
