@@ -8,7 +8,11 @@ from Configurations.ConfigDefinition import ReweightConfiguration
 from array import array
 from tqdm import tqdm
 import Utilities.BranchRemovalTool as branchRemovalTool
-from configDefaultPass import *
+from configDefaultPass_2016 import *
+ROOT.PyConfig.IgnoreCommandLineOptions = True
+
+
+
 
 #*******IMPORTANT-NOTE***********
 #When we want to add a new weight, we need to first remove all the old weights and the associated branches (using --Remove option) - this will prevent the creation of duplicate branches which 
@@ -116,7 +120,7 @@ if __name__ == "__main__":
                             uncertaintyName = 'FinalWeighting_'+uncertainty
                             finalWeightVariations[uncertaintyName][0] = 1.0                            
                 #okay, let's loop over each weight
-                print ("Beginning of the Event")
+                #print ("Beginning of the Event")
                 for weight in theConfig.listOfWeights:
                     #calculate the nominal value                    
                     weight.CalculateWeight(weight,theTree)
@@ -125,9 +129,9 @@ if __name__ == "__main__":
                         for uncertainty in weight.uncertaintyVariationList:
                             weight.uncertaintyVariationFunctions[uncertainty](weight,theTree,uncertainty)                            
                     #the nominal final weight is a product of all available nominal weights
-                    print ("Final Weight in stages:",theFinalWeight[0],weight.value[0])
+                    #print ("Final Weight in stages:",theFinalWeight[0],weight.value[0])
                     theFinalWeight[0] = theFinalWeight[0] * weight.value[0]
-                    print ("Multiplied weight:",theFinalWeight[0])
+                   #print ("Multiplied weight:",theFinalWeight[0])
                     #if this weight has an up/down uncertainty, let's find it's branch and get it properly modified
                     if weight.hasUpDownUncertainties:
                         for uncertainty in weight.uncertaintyVariationList:

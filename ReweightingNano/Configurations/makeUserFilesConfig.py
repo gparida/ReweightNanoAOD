@@ -12,7 +12,7 @@ string_out = """
 import ROOT
 import os
 import json
-from weightList import *
+from .weightList import *
 
 from Configurations.ConfigDefinition import ReweightConfiguration
 from Configurations.Weights.CrossSectionWeightingModule.CrossSectionWeight import crossSectionWeight as crossSectionWeight
@@ -31,9 +31,9 @@ totalNumberOfEvents = theFile.cutflow.GetBinContent(1)
 theFile.Close()
 
 {refinedName}Config.inputFile = jsonInfo[{refinedName}Config.name]['file']
-{refinedName}Config.inputFile_tt = jsonInfo[{refinedName}Config.name]['file_tt']
-{refinedName}Config.inputFile_et = jsonInfo[{refinedName}Config.name]['file_et']
-{refinedName}Config.inputFile_mt = jsonInfo[{refinedName}Config.name]['file_mt']
+#{refinedName}Config.inputFile_tt = jsonInfo[{refinedName}Config.name]['file_tt']
+#{refinedName}Config.inputFile_et = jsonInfo[{refinedName}Config.name]['file_et']
+#{refinedName}Config.inputFile_mt = jsonInfo[{refinedName}Config.name]['file_mt']
 
 
 crossSectionWeight.XS = jsonInfo[{refinedName}Config.name]['XS'] * 1e-12 #XS in pb
@@ -52,7 +52,7 @@ string_out_data = """
 import ROOT
 import os
 import json
-from weightList import *
+from .weightList import *
 
 from Configurations.ConfigDefinition import ReweightConfiguration
 from Configurations.Weights.CrossSectionWeightingModule.CrossSectionWeight import crossSectionWeight as crossSectionWeight
@@ -71,9 +71,9 @@ totalNumberOfEvents = theFile.cutflow.GetBinContent(1)
 theFile.Close()
 
 {refinedName}Config.inputFile = jsonInfo[{refinedName}Config.name]['file']
-{refinedName}Config.inputFile_tt = jsonInfo[{refinedName}Config.name]['file_tt']
-{refinedName}Config.inputFile_et = jsonInfo[{refinedName}Config.name]['file_et']
-{refinedName}Config.inputFile_mt = jsonInfo[{refinedName}Config.name]['file_mt']
+#{refinedName}Config.inputFile_tt = jsonInfo[{refinedName}Config.name]['file_tt']
+#{refinedName}Config.inputFile_et = jsonInfo[{refinedName}Config.name]['file_et']
+#{refinedName}Config.inputFile_mt = jsonInfo[{refinedName}Config.name]['file_mt']
 
 
 crossSectionWeight.XS = jsonInfo[{refinedName}Config.name]['XS'] * 1e-12 #XS in pb

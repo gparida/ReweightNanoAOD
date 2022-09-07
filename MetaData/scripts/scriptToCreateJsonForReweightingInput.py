@@ -36,7 +36,7 @@ for key in keyname:
 print (finalDict)
 
 with open(filepath, 'w') as writeFile:
-        json.dump(finalDict, writeFile, indent=4)
+        json.dump(finalDict, writeFile, indent=4, sort_keys=True)
 
 
 

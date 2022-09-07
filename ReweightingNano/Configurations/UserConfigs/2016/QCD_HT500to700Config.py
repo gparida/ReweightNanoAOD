@@ -2,7 +2,7 @@
 import ROOT
 import os
 import json
-from weightList import *
+from .weightList import *
 
 from Configurations.ConfigDefinition import ReweightConfiguration
 from Configurations.Weights.CrossSectionWeightingModule.CrossSectionWeight import crossSectionWeight as crossSectionWeight
@@ -12,7 +12,7 @@ from Configurations.Weights.CrossSectionWeightingModule.CrossSectionWeight impor
 QCD_HT500to700Config = ReweightConfiguration()
 QCD_HT500to700Config.name = 'QCD_HT500to700'
 #QCD_Pt_15to30Config.jsonSampleFile = os.environ['CMSSW_BASE']+'/src/bbtautauAnalysisScripts/analysisCore/config/samples/2016_Samples.json'
-QCD_HT500to700Config.jsonSampleFile = os.environ['CMSSW_BASE']+'/src/PhysicsTools/NanoAODTools/Samples/2016_Samples_25Jan.json'
+QCD_HT500to700Config.jsonSampleFile = os.environ['CMSSW_BASE']+'/src/ReweightNanoAOD/MetaData/2016_Samples.json'
 
 with open(QCD_HT500to700Config.jsonSampleFile,'r') as jsonFile:
     jsonInfo = json.load(jsonFile)
@@ -21,9 +21,9 @@ totalNumberOfEvents = theFile.cutflow.GetBinContent(1)
 theFile.Close()
 
 QCD_HT500to700Config.inputFile = jsonInfo[QCD_HT500to700Config.name]['file']
-QCD_HT500to700Config.inputFile_tt = jsonInfo[QCD_HT500to700Config.name]['file_tt']
-QCD_HT500to700Config.inputFile_et = jsonInfo[QCD_HT500to700Config.name]['file_et']
-QCD_HT500to700Config.inputFile_mt = jsonInfo[QCD_HT500to700Config.name]['file_mt']
+#QCD_HT500to700Config.inputFile_tt = jsonInfo[QCD_HT500to700Config.name]['file_tt']
+#QCD_HT500to700Config.inputFile_et = jsonInfo[QCD_HT500to700Config.name]['file_et']
+#QCD_HT500to700Config.inputFile_mt = jsonInfo[QCD_HT500to700Config.name]['file_mt']
 
 
 crossSectionWeight.XS = jsonInfo[QCD_HT500to700Config.name]['XS'] * 1e-12 #XS in pb
