@@ -17,7 +17,21 @@ WWTo1L1Nu2Q_4fConfig.jsonSampleFile = os.environ['CMSSW_BASE']+'/src/ReweightNan
 with open(WWTo1L1Nu2Q_4fConfig.jsonSampleFile,'r') as jsonFile:
     jsonInfo = json.load(jsonFile)
 theFile = ROOT.TFile(jsonInfo[WWTo1L1Nu2Q_4fConfig.name]['file'])
-totalNumberOfEvents = theFile.cutflow.GetBinContent(1)
+runTree = theFile.Get('Runs')
+nEntries = runTree.GetEntries()
+totalNumberOfEvents_runTree = 0.0
+for x in range(nEntries):
+    runTree.GetEntry(x)
+    #print ("The sum of gen weight of a single file = ",runTree.genEventSumw)
+    totalNumberOfEvents_runTree += runTree.genEventSumw
+
+print ("Sum of weights from run tree = ",totalNumberOfEvents_runTree)
+
+#totalNumberOfEvents = theFile.cutflow.GetBinContent(1)
+totalNumberOfEvents = totalNumberOfEvents_runTree
+
+print ("Sum of weights from histogram = ",theFile.cutflow.GetBinContent(1))
+print ("The one we will use = ",totalNumberOfEvents)
 theFile.Close()
 
 WWTo1L1Nu2Q_4fConfig.inputFile = jsonInfo[WWTo1L1Nu2Q_4fConfig.name]['file']

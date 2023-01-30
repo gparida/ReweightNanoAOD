@@ -1,0 +1,8 @@
+from Configurations.ConfigDefinition import ReweightConfiguration
+from Configurations.Weights.CrossSectionWeightingModule.CrossSectionWeight import crossSectionWeight as crossSectionWeight
+from Configurations.Weights.pileupWeightingModule.pileupWeight import pileupWeight_2016APV
+#from Configurations.Weights.TauIDModule.TauIDWeight import tauIDWeight_2016 as tauIDWeight
+#from Configurations.Weights.TriggerSFModule.triggerWeight import triggerWeight_2016APV
+#from Configurations.Weights.BtagWeightingModule.bTagweighting import btagWeight_2016APV
+
+list=[crossSectionWeight,pileupWeight_2016APV]

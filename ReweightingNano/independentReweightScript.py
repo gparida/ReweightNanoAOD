@@ -7,7 +7,8 @@ import traceback
 from Configurations.ConfigDefinition import ReweightConfiguration
 from array import array
 from tqdm import tqdm
-import Utilities.BranchRemovalTool as branchRemovalTool
+#import Utilities.BranchRemovalTool as branchRemovalTool
+import Utilities.BranchRemovalTool_Ganesh as branchRemovalTool
 from configDefaultPass_2016 import *
 ROOT.PyConfig.IgnoreCommandLineOptions = True
 

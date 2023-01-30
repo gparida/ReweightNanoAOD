@@ -48,5 +48,19 @@ pileupWeight_2016.uncertaintyVariationFunctions = {
 }
 
 
+pileupWeight_2016APV = Weight()
+pileupWeight_2016APV.name = 'pileupWeighting'
+pileupWeight_2016APV.jsonFile = b2gWeightPath+'2016preVFP_UL/puWeights.json.gz'
+pileupWeight_2016APV.CalculateWeight = calculatePileupWeight
+pileupWeight_2016APV.hasUpDownUncertainties = True
+pileupWeight_2016APV.uncertaintyVariationList = [
+    "pileupWeight_UP",
+    "pileupWeight_DOWN"
+    ]
+pileupWeight_2016APV.InitUncertaintyVariations()
+pileupWeight_2016APV.uncertaintyVariationFunctions = {
+    "pileupWeight_UP":calculatePileupWeight_Up,
+    "pileupWeight_DOWN":calculatePileupWeight_Down
+}
 
 

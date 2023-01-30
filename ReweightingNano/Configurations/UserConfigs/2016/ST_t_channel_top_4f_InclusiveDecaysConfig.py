@@ -17,7 +17,21 @@ ST_t_channel_top_4f_InclusiveDecaysConfig.jsonSampleFile = os.environ['CMSSW_BAS
 with open(ST_t_channel_top_4f_InclusiveDecaysConfig.jsonSampleFile,'r') as jsonFile:
     jsonInfo = json.load(jsonFile)
 theFile = ROOT.TFile(jsonInfo[ST_t_channel_top_4f_InclusiveDecaysConfig.name]['file'])
-totalNumberOfEvents = theFile.cutflow.GetBinContent(1)
+runTree = theFile.Get('Runs')
+nEntries = runTree.GetEntries()
+totalNumberOfEvents_runTree = 0.0
+for x in range(nEntries):
+    runTree.GetEntry(x)
+    #print ("The sum of gen weight of a single file = ",runTree.genEventSumw)
+    totalNumberOfEvents_runTree += runTree.genEventSumw
+
+print ("Sum of weights from run tree = ",totalNumberOfEvents_runTree)
+
+#totalNumberOfEvents = theFile.cutflow.GetBinContent(1)
+totalNumberOfEvents = totalNumberOfEvents_runTree
+
+print ("Sum of weights from histogram = ",theFile.cutflow.GetBinContent(1))
+print ("The one we will use = ",totalNumberOfEvents)
 theFile.Close()
 
 ST_t_channel_top_4f_InclusiveDecaysConfig.inputFile = jsonInfo[ST_t_channel_top_4f_InclusiveDecaysConfig.name]['file']

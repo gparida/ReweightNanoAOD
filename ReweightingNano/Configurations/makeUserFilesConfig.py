@@ -16,18 +16,32 @@ from .weightList import *
 
 from Configurations.ConfigDefinition import ReweightConfiguration
 from Configurations.Weights.CrossSectionWeightingModule.CrossSectionWeight import crossSectionWeight as crossSectionWeight
-#from Configurations.Weights.pileupWeightingModule.pileupWeight import pileupWeight_2016
+#from Configurations.Weights.pileupWeightingModule.pileupWeight import pileupWeight_{year}
 
 
 {refinedName}Config = ReweightConfiguration()
 {refinedName}Config.name = '{Name}'
-#QCD_Pt_15to30Config.jsonSampleFile = os.environ['CMSSW_BASE']+'/src/bbtautauAnalysisScripts/analysisCore/config/samples/2016_Samples.json'
+#QCD_Pt_15to30Config.jsonSampleFile = os.environ['CMSSW_BASE']+'/src/bbtautauAnalysisScripts/analysisCore/config/samples/{year}_Samples.json'
 {refinedName}Config.jsonSampleFile = os.environ['CMSSW_BASE']+'/src/ReweightNanoAOD/MetaData/{jsonName}'
 
 with open({refinedName}Config.jsonSampleFile,'r') as jsonFile:
     jsonInfo = json.load(jsonFile)
 theFile = ROOT.TFile(jsonInfo[{refinedName}Config.name]['file'])
-totalNumberOfEvents = theFile.cutflow.GetBinContent(1)
+runTree = theFile.Get('Runs')
+nEntries = runTree.GetEntries()
+totalNumberOfEvents_runTree = 0.0
+for x in range(nEntries):
+    runTree.GetEntry(x)
+    #print ("The sum of gen weight of a single file = ",runTree.genEventSumw)
+    totalNumberOfEvents_runTree += runTree.genEventSumw
+
+print ("Sum of weights from run tree = ",totalNumberOfEvents_runTree)
+
+#totalNumberOfEvents = theFile.cutflow.GetBinContent(1)
+totalNumberOfEvents = totalNumberOfEvents_runTree
+
+print ("Sum of weights from histogram = ",theFile.cutflow.GetBinContent(1))
+print ("The one we will use = ",totalNumberOfEvents)
 theFile.Close()
 
 {refinedName}Config.inputFile = jsonInfo[{refinedName}Config.name]['file']
@@ -37,7 +51,7 @@ theFile.Close()
 
 
 crossSectionWeight.XS = jsonInfo[{refinedName}Config.name]['XS'] * 1e-12 #XS in pb
-crossSectionWeight.timePeriod = '2016'
+crossSectionWeight.timePeriod = '{year}'
 crossSectionWeight.totalNumberOfEvents = totalNumberOfEvents
 try:
     crossSectionWeight.forcedGenWeight = jsonInfo[{refinedName}Config.name]['forcedGenWeight']
@@ -56,12 +70,12 @@ from .weightList import *
 
 from Configurations.ConfigDefinition import ReweightConfiguration
 from Configurations.Weights.CrossSectionWeightingModule.CrossSectionWeight import crossSectionWeight as crossSectionWeight
-#from Configurations.Weights.pileupWeightingModule.pileupWeight import pileupWeight_2016
+#from Configurations.Weights.pileupWeightingModule.pileupWeight import pileupWeight_{year}
 
 
 {refinedName}Config = ReweightConfiguration()
 {refinedName}Config.name = '{Name}'
-#QCD_Pt_15to30Config.jsonSampleFile = os.environ['CMSSW_BASE']+'/src/bbtautauAnalysisScripts/analysisCore/config/samples/2016_Samples.json'
+#QCD_Pt_15to30Config.jsonSampleFile = os.environ['CMSSW_BASE']+'/src/bbtautauAnalysisScripts/analysisCore/config/samples/{year}_Samples.json'
 {refinedName}Config.jsonSampleFile = os.environ['CMSSW_BASE']+'/src/ReweightNanoAOD/MetaData/{jsonName}'
 
 with open({refinedName}Config.jsonSampleFile,'r') as jsonFile:
@@ -77,7 +91,7 @@ theFile.Close()
 
 
 crossSectionWeight.XS = jsonInfo[{refinedName}Config.name]['XS'] * 1e-12 #XS in pb
-crossSectionWeight.timePeriod = '2016'
+crossSectionWeight.timePeriod = '{year}'
 crossSectionWeight.totalNumberOfEvents = totalNumberOfEvents
 try:
     crossSectionWeight.forcedGenWeight = jsonInfo[{refinedName}Config.name]['forcedGenWeight']
@@ -98,9 +112,9 @@ for name in keys:
     if  name == "Data":
         with open('UserConfigs/'+args.year+'/'+name.replace("-","_")+'Config.py','w+') as file_out:
             print (string_out_data)
-            file_out.write(string_out_data.format(refinedName=name.replace("-","_"),Name=name,jsonName=args.name))
+            file_out.write(string_out_data.format(refinedName=name.replace("-","_"),Name=name,jsonName=args.name,year=args.year))
     else:
         with open('UserConfigs/'+args.year+'/'+name.replace("-","_")+'Config.py','w+') as file_out:
-            file_out.write(string_out.format(refinedName=name.replace("-","_"),Name=name,jsonName=args.name))
+            file_out.write(string_out.format(refinedName=name.replace("-","_"),Name=name,jsonName=args.name,year=args.year))
 
 

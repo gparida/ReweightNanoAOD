@@ -17,7 +17,21 @@ ZZTo2Nu2Q_5fConfig.jsonSampleFile = os.environ['CMSSW_BASE']+'/src/ReweightNanoA
 with open(ZZTo2Nu2Q_5fConfig.jsonSampleFile,'r') as jsonFile:
     jsonInfo = json.load(jsonFile)
 theFile = ROOT.TFile(jsonInfo[ZZTo2Nu2Q_5fConfig.name]['file'])
-totalNumberOfEvents = theFile.cutflow.GetBinContent(1)
+runTree = theFile.Get('Runs')
+nEntries = runTree.GetEntries()
+totalNumberOfEvents_runTree = 0.0
+for x in range(nEntries):
+    runTree.GetEntry(x)
+    #print ("The sum of gen weight of a single file = ",runTree.genEventSumw)
+    totalNumberOfEvents_runTree += runTree.genEventSumw
+
+print ("Sum of weights from run tree = ",totalNumberOfEvents_runTree)
+
+#totalNumberOfEvents = theFile.cutflow.GetBinContent(1)
+totalNumberOfEvents = totalNumberOfEvents_runTree
+
+print ("Sum of weights from histogram = ",theFile.cutflow.GetBinContent(1))
+print ("The one we will use = ",totalNumberOfEvents)
 theFile.Close()
 
 ZZTo2Nu2Q_5fConfig.inputFile = jsonInfo[ZZTo2Nu2Q_5fConfig.name]['file']
