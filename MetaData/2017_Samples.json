@@ -1,0 +1,447 @@
+{
+    "DYJetsToLL_M-4to50_HT-100to200": {
+        "EquiLumi":4.887,
+        "XS":204.0,
+        "file": "/hdfs/store/user/gparida/HHbbtt/Hadded_Skimmed_Files/Full_Production_CMSSW_13_0_13_Nov24_23/LooseSelection_MET_gt_80_nFatJet_gt_0_Skim/2017/DYJetsToLL_M-4to50_HT-100to200.root",
+        "kFac": 0
+    },
+    "DYJetsToLL_M-4to50_HT-200to400": {
+        "EquiLumi":18.28,
+        "XS":54.39,
+        "file": "/hdfs/store/user/gparida/HHbbtt/Hadded_Skimmed_Files/Full_Production_CMSSW_13_0_13_Nov24_23/LooseSelection_MET_gt_80_nFatJet_gt_0_Skim/2017/DYJetsToLL_M-4to50_HT-200to400.root",
+        "kFac": 0
+    },
+    "DYJetsToLL_M-4to50_HT-400to600": {
+        "EquiLumi":173.8,
+        "XS":5.697,
+        "file": "/hdfs/store/user/gparida/HHbbtt/Hadded_Skimmed_Files/Full_Production_CMSSW_13_0_13_Nov24_23/LooseSelection_MET_gt_80_nFatJet_gt_0_Skim/2017/DYJetsToLL_M-4to50_HT-400to600.root",
+        "kFac": 0
+    },
+    "DYJetsToLL_M-4to50_HT-600toInf": {
+        "EquiLumi":533.2,
+        "XS":1.85,
+        "file": "/hdfs/store/user/gparida/HHbbtt/Hadded_Skimmed_Files/Full_Production_CMSSW_13_0_13_Nov24_23/LooseSelection_MET_gt_80_nFatJet_gt_0_Skim/2017/DYJetsToLL_M-4to50_HT-600toInf.root",
+        "kFac": 0
+    },
+    "DYJetsToLL_M-4to50_HT-70to100": {
+        "EquiLumi":6.858,
+        "XS":145.5,
+        "file": "/hdfs/store/user/gparida/HHbbtt/Hadded_Skimmed_Files/Full_Production_CMSSW_13_0_13_Nov24_23/LooseSelection_MET_gt_80_nFatJet_gt_0_Skim/2017/DYJetsToLL_M-4to50_HT-70to100.root",
+        "kFac": 0
+    },
+    "DYJetsToLL_M-50_HT-70to100": {
+        "EquiLumi":6.815,
+        "XS":146.5,
+        "file": "/hdfs/store/user/gparida/HHbbtt/Hadded_Skimmed_Files/Full_Production_CMSSW_13_0_13_Nov24_23/LooseSelection_MET_gt_80_nFatJet_gt_0_Skim/2017/DYJetsToLL_M-50_HT-70to100.root",
+        "kFac": 0
+    },
+    "DYJetsToLL_M-50_HT-100to200": {
+        "EquiLumi":6.208,
+        "XS":160.7,
+        "file": "/hdfs/store/user/gparida/HHbbtt/Hadded_Skimmed_Files/Full_Production_CMSSW_13_0_13_Nov24_23/LooseSelection_MET_gt_80_nFatJet_gt_0_Skim/2017/DYJetsToLL_M-50_HT-100to200.root",
+        "kFac": 0
+    },
+    "DYJetsToLL_M-50_HT-1200to2500": {
+        "EquiLumi":5081.0,
+        "XS":0.1937,
+        "file": "/hdfs/store/user/gparida/HHbbtt/Hadded_Skimmed_Files/Full_Production_CMSSW_13_0_13_Nov24_23/LooseSelection_MET_gt_80_nFatJet_gt_0_Skim/2017/DYJetsToLL_M-50_HT-1200to2500.root",
+        "kFac": 0
+    },
+    "DYJetsToLL_M-50_HT-200to400": {
+        "EquiLumi":20.5,
+        "XS":48.63,
+        "file": "/hdfs/store/user/gparida/HHbbtt/Hadded_Skimmed_Files/Full_Production_CMSSW_13_0_13_Nov24_23/LooseSelection_MET_gt_80_nFatJet_gt_0_Skim/2017/DYJetsToLL_M-50_HT-200to400.root",
+        "kFac": 0
+    },
+    "DYJetsToLL_M-50_HT-2500toInf": {
+        "EquiLumi":269500.0,
+        "XS":0.003514,
+        "file": "/hdfs/store/user/gparida/HHbbtt/Hadded_Skimmed_Files/Full_Production_CMSSW_13_0_13_Nov24_23/LooseSelection_MET_gt_80_nFatJet_gt_0_Skim/2017/DYJetsToLL_M-50_HT-2500toInf.root",
+        "kFac": 0
+    },
+    "DYJetsToLL_M-50_HT-400to600": {
+        "EquiLumi":142.2,
+        "XS":6.993,
+        "file": "/hdfs/store/user/gparida/HHbbtt/Hadded_Skimmed_Files/Full_Production_CMSSW_13_0_13_Nov24_23/LooseSelection_MET_gt_80_nFatJet_gt_0_Skim/2017/DYJetsToLL_M-50_HT-400to600.root",
+        "kFac": 0
+    },
+    "DYJetsToLL_M-50_HT-600to800": {
+        "EquiLumi":563.5,
+        "XS":1.761,
+        "file": "/hdfs/store/user/gparida/HHbbtt/Hadded_Skimmed_Files/Full_Production_CMSSW_13_0_13_Nov24_23/LooseSelection_MET_gt_80_nFatJet_gt_0_Skim/2017/DYJetsToLL_M-50_HT-600to800.root",
+        "kFac": 0
+    },
+    "DYJetsToLL_M-50_HT-800to1200": {
+        "EquiLumi":1232.0,
+        "XS":0.8021,
+        "file": "/hdfs/store/user/gparida/HHbbtt/Hadded_Skimmed_Files/Full_Production_CMSSW_13_0_13_Nov24_23/LooseSelection_MET_gt_80_nFatJet_gt_0_Skim/2017/DYJetsToLL_M-50_HT-800to1200.root",
+        "kFac": 0
+    },
+    "QCD_HT1000to1500": {
+        "EquiLumi":0.8946,
+        "XS":1118.0,
+        "file": "/hdfs/store/user/gparida/HHbbtt/Hadded_Skimmed_Files/Full_Production_CMSSW_13_0_13_Nov24_23/LooseSelection_MET_gt_80_nFatJet_gt_0_Skim/2017/QCD_HT1000to1500.root",
+        "kFac": 0
+    },
+    "QCD_HT100to200": {
+        "EquiLumi":4.231e-05,
+        "XS":23630000.0,
+        "file": "/hdfs/store/user/gparida/HHbbtt/Hadded_Skimmed_Files/Full_Production_CMSSW_13_0_13_Nov24_23/LooseSelection_MET_gt_80_nFatJet_gt_0_Skim/2017/QCD_HT100to200.root",
+        "kFac": 0
+    },
+    "QCD_HT1500to2000": {
+        "EquiLumi":9.187,
+        "XS":108.9,
+        "file": "/hdfs/store/user/gparida/HHbbtt/Hadded_Skimmed_Files/Full_Production_CMSSW_13_0_13_Nov24_23/LooseSelection_MET_gt_80_nFatJet_gt_0_Skim/2017/QCD_HT1500to2000.root",
+        "kFac": 0
+    },
+    "QCD_HT2000toInf": {
+        "EquiLumi":45.6,
+        "XS":21.93,
+        "file": "/hdfs/store/user/gparida/HHbbtt/Hadded_Skimmed_Files/Full_Production_CMSSW_13_0_13_Nov24_23/LooseSelection_MET_gt_80_nFatJet_gt_0_Skim/2017/QCD_HT2000toInf.root",
+        "kFac": 0
+    },
+    "QCD_HT200to300": {
+        "EquiLumi":0.0006436,
+        "XS":1554000.0,
+        "file": "/hdfs/store/user/gparida/HHbbtt/Hadded_Skimmed_Files/Full_Production_CMSSW_13_0_13_Nov24_23/LooseSelection_MET_gt_80_nFatJet_gt_0_Skim/2017/QCD_HT200to300.root",
+        "kFac": 0
+    },
+    "QCD_HT300to500": {
+        "EquiLumi":0.003088,
+        "XS":323800.0,
+        "file": "/hdfs/store/user/gparida/HHbbtt/Hadded_Skimmed_Files/Full_Production_CMSSW_13_0_13_Nov24_23/LooseSelection_MET_gt_80_nFatJet_gt_0_Skim/2017/QCD_HT300to500.root",
+        "kFac": 0
+    },
+    "QCD_HT500to700": {
+        "EquiLumi":0.03302,
+        "XS":30280.0,
+        "file": "/hdfs/store/user/gparida/HHbbtt/Hadded_Skimmed_Files/Full_Production_CMSSW_13_0_13_Nov24_23/LooseSelection_MET_gt_80_nFatJet_gt_0_Skim/2017/QCD_HT500to700.root",
+        "kFac": 0
+    },
+    "QCD_HT50to100": {
+        "EquiLumi":5.372e-06,
+        "XS":186100000.0,
+        "file": "/hdfs/store/user/gparida/HHbbtt/Hadded_Skimmed_Files/Full_Production_CMSSW_13_0_13_Nov24_23/LooseSelection_MET_gt_80_nFatJet_gt_0_Skim/2017/QCD_HT50to100.root",
+        "kFac": 0
+    },
+    "QCD_HT700to1000": {
+        "EquiLumi":0.1565,
+        "XS":6392.0,
+        "file": "/hdfs/store/user/gparida/HHbbtt/Hadded_Skimmed_Files/Full_Production_CMSSW_13_0_13_Nov24_23/LooseSelection_MET_gt_80_nFatJet_gt_0_Skim/2017/QCD_HT700to1000.root",
+        "kFac": 0
+    },
+    "RadionTohhTohtatahbb_narrow_M-1000": {
+        "EquiLumi": 0,
+        "XS_AN":0.06206400165,
+        "XS": 1.0,
+        "file": "/hdfs/store/user/gparida/HHbbtt/Hadded_Skimmed_Files/Full_Production_CMSSW_13_0_13_Nov24_23/LooseSelection_MET_gt_80_nFatJet_gt_0_Skim/2017/RadionTohhTohtatahbb_narrow_M-1000.root",
+        "kFac": 0
+    },
+    "RadionTohhTohtatahbb_narrow_M-1200": {
+        "EquiLumi": 0,
+        "XS": 1.0,
+        "file": "/hdfs/store/user/gparida/HHbbtt/Hadded_Skimmed_Files/Full_Production_CMSSW_13_0_13_Nov24_23/LooseSelection_MET_gt_80_nFatJet_gt_0_Skim/2017/RadionTohhTohtatahbb_narrow_M-1200.root",
+        "kFac": 0
+    },
+    "RadionTohhTohtatahbb_narrow_M-1400": {
+        "EquiLumi": 0,
+        "XS": 1.0,
+        "file": "/hdfs/store/user/gparida/HHbbtt/Hadded_Skimmed_Files/Full_Production_CMSSW_13_0_13_Nov24_23/LooseSelection_MET_gt_80_nFatJet_gt_0_Skim/2017/RadionTohhTohtatahbb_narrow_M-1400.root",
+        "kFac": 0
+    },
+    "RadionTohhTohtatahbb_narrow_M-1600": {
+        "EquiLumi": 0,
+        "XS": 1.0,
+        "file": "/hdfs/store/user/gparida/HHbbtt/Hadded_Skimmed_Files/Full_Production_CMSSW_13_0_13_Nov24_23/LooseSelection_MET_gt_80_nFatJet_gt_0_Skim/2017/RadionTohhTohtatahbb_narrow_M-1600.root",
+        "kFac": 0
+    },
+    "RadionTohhTohtatahbb_narrow_M-1800": {
+        "EquiLumi": 0,
+        "XS": 1.0,
+        "file": "/hdfs/store/user/gparida/HHbbtt/Hadded_Skimmed_Files/Full_Production_CMSSW_13_0_13_Nov24_23/LooseSelection_MET_gt_80_nFatJet_gt_0_Skim/2017/RadionTohhTohtatahbb_narrow_M-1800.root",
+        "kFac": 0
+    },
+    "RadionTohhTohtatahbb_narrow_M-2000": {
+        "EquiLumi": 0,
+        "XS_AN":0.0033872266,
+        "XS": 1.0,
+        "file": "/hdfs/store/user/gparida/HHbbtt/Hadded_Skimmed_Files/Full_Production_CMSSW_13_0_13_Nov24_23/LooseSelection_MET_gt_80_nFatJet_gt_0_Skim/2017/RadionTohhTohtatahbb_narrow_M-2000.root",
+        "kFac": 0
+    },
+    "RadionTohhTohtatahbb_narrow_M-2500": {
+        "EquiLumi": 0,
+        "XS_AN":0.00101943837,
+        "XS": 1.0,
+        "file": "/hdfs/store/user/gparida/HHbbtt/Hadded_Skimmed_Files/Full_Production_CMSSW_13_0_13_Nov24_23/LooseSelection_MET_gt_80_nFatJet_gt_0_Skim/2017/RadionTohhTohtatahbb_narrow_M-2500.root",
+        "kFac": 0
+    },
+    "RadionTohhTohtatahbb_narrow_M-3000": {
+        "EquiLumi": 0,
+        "XS_AN":0.0003270393,
+        "XS": 1.0,
+        "file": "/hdfs/store/user/gparida/HHbbtt/Hadded_Skimmed_Files/Full_Production_CMSSW_13_0_13_Nov24_23/LooseSelection_MET_gt_80_nFatJet_gt_0_Skim/2017/RadionTohhTohtatahbb_narrow_M-3000.root",
+        "kFac": 0
+    },
+    "RadionTohhTohtatahbb_narrow_M-3500": {
+        "EquiLumi": 0,
+        "XS_AN":0.00011137347,
+        "XS": 1.0,
+        "file": "/hdfs/store/user/gparida/HHbbtt/Hadded_Skimmed_Files/Full_Production_CMSSW_13_0_13_Nov24_23/LooseSelection_MET_gt_80_nFatJet_gt_0_Skim/2017/RadionTohhTohtatahbb_narrow_M-3500.root",
+        "kFac": 0
+    },
+    "RadionTohhTohtatahbb_narrow_M-4000": {
+        "EquiLumi": 0,
+        "XS_AN":0.0000616161,
+        "XS": 1.0,
+        "file": "/hdfs/store/user/gparida/HHbbtt/Hadded_Skimmed_Files/Full_Production_CMSSW_13_0_13_Nov24_23/LooseSelection_MET_gt_80_nFatJet_gt_0_Skim/2017/RadionTohhTohtatahbb_narrow_M-4000.root",
+        "kFac": 0
+    },
+    "RadionTohhTohtatahbb_narrow_M-4500": {
+        "EquiLumi": 0,
+        "XS": 1.0,
+        "file": "/hdfs/store/user/gparida/HHbbtt/Hadded_Skimmed_Files/Full_Production_CMSSW_13_0_13_Nov24_23/LooseSelection_MET_gt_80_nFatJet_gt_0_Skim/2017/RadionTohhTohtatahbb_narrow_M-4500.root",
+        "kFac": 0
+    },
+    "ST_s-channel_4f_leptonDecays": {
+        "EquiLumi":118.1,
+        "XS":3.549,
+        "file": "/hdfs/store/user/gparida/HHbbtt/Hadded_Skimmed_Files/Full_Production_CMSSW_13_0_13_Nov24_23/LooseSelection_MET_gt_80_nFatJet_gt_0_Skim/2017/ST_s-channel_4f_leptonDecays.root",
+        "kFac": 0
+    },
+    "ST_t-channel_antitop_4f_InclusiveDecays": {
+        "EquiLumi":12.74,
+        "XS":69.09,
+        "file": "/hdfs/store/user/gparida/HHbbtt/Hadded_Skimmed_Files/Full_Production_CMSSW_13_0_13_Nov24_23/LooseSelection_MET_gt_80_nFatJet_gt_0_Skim/2017/ST_t-channel_antitop_4f_InclusiveDecays.root",
+        "kFac": 0
+    },
+    "ST_t-channel_top_4f_InclusiveDecays": {
+        "EquiLumi":7.547,
+        "XS":115.3,
+        "file": "/hdfs/store/user/gparida/HHbbtt/Hadded_Skimmed_Files/Full_Production_CMSSW_13_0_13_Nov24_23/LooseSelection_MET_gt_80_nFatJet_gt_0_Skim/2017/ST_t-channel_top_4f_InclusiveDecays.root",
+        "kFac": 0
+    },
+    "ST_tW_antitop_5f_inclusiveDecays": {
+        "EquiLumi":28.2,
+        "XS":34.97,
+        "file": "/hdfs/store/user/gparida/HHbbtt/Hadded_Skimmed_Files/Full_Production_CMSSW_13_0_13_Nov24_23/LooseSelection_MET_gt_80_nFatJet_gt_0_Skim/2017/ST_tW_antitop_5f_inclusiveDecays.root",
+        "kFac": 0
+    },
+    "ST_tW_top_5f_inclusiveDecays": {
+        "EquiLumi":28.22,
+        "XS":34.91,
+        "file": "/hdfs/store/user/gparida/HHbbtt/Hadded_Skimmed_Files/Full_Production_CMSSW_13_0_13_Nov24_23/LooseSelection_MET_gt_80_nFatJet_gt_0_Skim/2017/ST_tW_top_5f_inclusiveDecays.root",
+        "kFac": 0
+    },
+    "TTTo2L2Nu": {
+        "EquiLumi": 0,
+        "XS":87.310,
+        "file": "/hdfs/store/user/gparida/HHbbtt/Hadded_Skimmed_Files/Full_Production_CMSSW_13_0_13_Nov24_23/LooseSelection_MET_gt_80_nFatJet_gt_0_Skim/2017/TTTo2L2Nu.root",
+        "kFac": 0
+    },
+    "TTTo2L2Nu_2": {
+        "EquiLumi": 0,
+        "XS":87.310,
+        "file": "/hdfs/store/user/gparida/HHbbtt/Hadded_Skimmed_Files/Full_Production_CMSSW_13_0_13_Nov24_23/LooseSelection_MET_gt_80_nFatJet_gt_0_Skim/2017/TTTo2L2Nu_2.root",
+        "kFac": 0
+    },
+    "TTToHadronic": {
+        "EquiLumi":1.433,
+        "XS":378.930,
+        "file": "/hdfs/store/user/gparida/HHbbtt/Hadded_Skimmed_Files/Full_Production_CMSSW_13_0_13_Nov24_23/LooseSelection_MET_gt_80_nFatJet_gt_0_Skim/2017/TTToHadronic.root",
+        "kFac": 0
+    },
+    "TTToSemiLeptonic": {
+        "EquiLumi":1.433,
+        "XS":364.350,
+        "file": "/hdfs/store/user/gparida/HHbbtt/Hadded_Skimmed_Files/Full_Production_CMSSW_13_0_13_Nov24_23/LooseSelection_MET_gt_80_nFatJet_gt_0_Skim/2017/TTToSemiLeptonic.root",
+        "kFac": 0
+    },
+    "TTToSemiLeptonic_2": {
+        "EquiLumi":1.433,
+        "XS":364.350,
+        "file": "/hdfs/store/user/gparida/HHbbtt/Hadded_Skimmed_Files/Full_Production_CMSSW_13_0_13_Nov24_23/LooseSelection_MET_gt_80_nFatJet_gt_0_Skim/2017/TTToSemiLeptonic_2.root",
+        "kFac": 0
+    },
+    "TTToSemiLeptonic_3": {
+        "EquiLumi":1.433,
+        "XS":364.350,
+        "file": "/hdfs/store/user/gparida/HHbbtt/Hadded_Skimmed_Files/Full_Production_CMSSW_13_0_13_Nov24_23/LooseSelection_MET_gt_80_nFatJet_gt_0_Skim/2017/TTToSemiLeptonic_3.root",
+        "kFac": 0
+    },
+    "TTToSemiLeptonic_4": {
+        "EquiLumi":1.433,
+        "XS":364.350,
+        "file": "/hdfs/store/user/gparida/HHbbtt/Hadded_Skimmed_Files/Full_Production_CMSSW_13_0_13_Nov24_23/LooseSelection_MET_gt_80_nFatJet_gt_0_Skim/2017/TTToSemiLeptonic_4.root",
+        "kFac": 0
+    },
+
+    "WJetsToLNu_HT-70To100": {
+        "EquiLumi":0.791,
+        "XS":1264.0,
+        "file": "/hdfs/store/user/gparida/HHbbtt/Hadded_Skimmed_Files/Full_Production_CMSSW_13_0_13_Nov24_23/LooseSelection_MET_gt_80_nFatJet_gt_0_Skim/2017/WJetsToLNu_HT-70To100.root",
+        "kFac": 0
+    },
+    "WJetsToLNu_HT-100To200": {
+        "EquiLumi":0.7963,
+        "XS":1256.0,
+        "file": "/hdfs/store/user/gparida/HHbbtt/Hadded_Skimmed_Files/Full_Production_CMSSW_13_0_13_Nov24_23/LooseSelection_MET_gt_80_nFatJet_gt_0_Skim/2017/WJetsToLNu_HT-100To200.root",
+        "kFac": 0
+    },
+    "WJetsToLNu_HT-1200To2500": {
+        "EquiLumi":862.1,
+        "XS":1.16,
+        "file": "/hdfs/store/user/gparida/HHbbtt/Hadded_Skimmed_Files/Full_Production_CMSSW_13_0_13_Nov24_23/LooseSelection_MET_gt_80_nFatJet_gt_0_Skim/2017/WJetsToLNu_HT-1200To2500.root",
+        "kFac": 0
+    },
+    "WJetsToLNu_HT-1200To2500_2": {
+        "EquiLumi":862.1,
+        "XS":1.16,
+        "file": "/hdfs/store/user/gparida/HHbbtt/Hadded_Skimmed_Files/Full_Production_CMSSW_13_0_13_Nov24_23/LooseSelection_MET_gt_80_nFatJet_gt_0_Skim/2017/WJetsToLNu_HT-1200To2500_2.root",
+        "kFac": 0
+    },
+    "WJetsToLNu_HT-200To400": {
+        "EquiLumi":2.98,
+        "XS":335.5,
+        "file": "/hdfs/store/user/gparida/HHbbtt/Hadded_Skimmed_Files/Full_Production_CMSSW_13_0_13_Nov24_23/LooseSelection_MET_gt_80_nFatJet_gt_0_Skim/2017/WJetsToLNu_HT-200To400.root",
+        "kFac": 0
+    },
+    "WJetsToLNu_HT-2500ToInf": {
+        "EquiLumi":114900.0,
+        "XS":0.008001,
+        "file": "/hdfs/store/user/gparida/HHbbtt/Hadded_Skimmed_Files/Full_Production_CMSSW_13_0_13_Nov24_23/LooseSelection_MET_gt_80_nFatJet_gt_0_Skim/2017/WJetsToLNu_HT-2500ToInf.root",
+        "kFac": 0
+    },
+    "WJetsToLNu_HT-400To600": {
+        "EquiLumi":22.1,
+        "XS":45.25,
+        "file": "/hdfs/store/user/gparida/HHbbtt/Hadded_Skimmed_Files/Full_Production_CMSSW_13_0_13_Nov24_23/LooseSelection_MET_gt_80_nFatJet_gt_0_Skim/2017/WJetsToLNu_HT-400To600.root",
+        "kFac": 0
+    },
+    "WJetsToLNu_HT-400To600_2": {
+        "EquiLumi":22.1,
+        "XS":45.25,
+        "file": "/hdfs/store/user/gparida/HHbbtt/Hadded_Skimmed_Files/Full_Production_CMSSW_13_0_13_Nov24_23/LooseSelection_MET_gt_80_nFatJet_gt_0_Skim/2017/WJetsToLNu_HT-400To600_2.root",
+        "kFac": 0
+    },
+    "WJetsToLNu_HT-600To800": {
+        "EquiLumi":91.16,
+        "XS":10.97,
+        "file": "/hdfs/store/user/gparida/HHbbtt/Hadded_Skimmed_Files/Full_Production_CMSSW_13_0_13_Nov24_23/LooseSelection_MET_gt_80_nFatJet_gt_0_Skim/2017/WJetsToLNu_HT-600To800.root",
+        "kFac": 0
+    },
+    "WJetsToLNu_HT-600To800_2": {
+        "EquiLumi":91.16,
+        "XS":10.97,
+        "file": "/hdfs/store/user/gparida/HHbbtt/Hadded_Skimmed_Files/Full_Production_CMSSW_13_0_13_Nov24_23/LooseSelection_MET_gt_80_nFatJet_gt_0_Skim/2017/WJetsToLNu_HT-600To800_2.root",
+        "kFac": 0
+    },
+    "WJetsToLNu_HT-800To1200": {
+        "EquiLumi":202.7,
+        "XS":4.933,
+        "file": "/hdfs/store/user/gparida/HHbbtt/Hadded_Skimmed_Files/Full_Production_CMSSW_13_0_13_Nov24_23/LooseSelection_MET_gt_80_nFatJet_gt_0_Skim/2017/WJetsToLNu_HT-800To1200.root",
+        "kFac": 0
+    },
+    "WJetsToLNu_HT-800To1200_2": {
+        "EquiLumi":202.7,
+        "XS":4.933,
+        "file": "/hdfs/store/user/gparida/HHbbtt/Hadded_Skimmed_Files/Full_Production_CMSSW_13_0_13_Nov24_23/LooseSelection_MET_gt_80_nFatJet_gt_0_Skim/2017/WJetsToLNu_HT-800To1200_2.root",
+        "kFac": 0
+    },
+    "WWTo1L1Nu2Q_4f": {
+        "EquiLumi": 0,
+        "XS":49.997,
+        "file": "/hdfs/store/user/gparida/HHbbtt/Hadded_Skimmed_Files/Full_Production_CMSSW_13_0_13_Nov24_23/LooseSelection_MET_gt_80_nFatJet_gt_0_Skim/2017/WWTo1L1Nu2Q_4f.root",
+        "kFac": 0
+    },
+    "WZTo1L1Nu2Q_4f": {
+        "EquiLumi": 0,
+        "XS":10.71,
+        "file": "/hdfs/store/user/gparida/HHbbtt/Hadded_Skimmed_Files/Full_Production_CMSSW_13_0_13_Nov24_23/LooseSelection_MET_gt_80_nFatJet_gt_0_Skim/2017/WZTo1L1Nu2Q_4f.root",
+        "kFac": 0
+    },
+    "WZTo1L3Nu_4f": {
+        "EquiLumi": 0,
+        "XS":3.05,
+        "file": "/hdfs/store/user/gparida/HHbbtt/Hadded_Skimmed_Files/Full_Production_CMSSW_13_0_13_Nov24_23/LooseSelection_MET_gt_80_nFatJet_gt_0_Skim/2017/WZTo1L3Nu_4f.root",
+        "kFac": 0
+    },
+    "WZTo2Q2L_mllmin4p0": {
+        "EquiLumi":60.52,
+        "XS":6.419,
+        "file": "/hdfs/store/user/gparida/HHbbtt/Hadded_Skimmed_Files/Full_Production_CMSSW_13_0_13_Nov24_23/LooseSelection_MET_gt_80_nFatJet_gt_0_Skim/2017/WZTo2Q2L_mllmin4p0.root",
+        "kFac": 0
+    },
+    "ZZTo2Nu2Q_5f": {
+        "EquiLumi": 0,
+        "XS":4.04,
+        "file": "/hdfs/store/user/gparida/HHbbtt/Hadded_Skimmed_Files/Full_Production_CMSSW_13_0_13_Nov24_23/LooseSelection_MET_gt_80_nFatJet_gt_0_Skim/2017/ZZTo2Nu2Q_5f.root",
+        "kFac": 0
+    },
+    "ZZTo2Q2L_mllmin4p0": {
+        "EquiLumi": 0,
+        "XS":3.22,
+        "file": "/hdfs/store/user/gparida/HHbbtt/Hadded_Skimmed_Files/Full_Production_CMSSW_13_0_13_Nov24_23/LooseSelection_MET_gt_80_nFatJet_gt_0_Skim/2017/ZZTo2Q2L_mllmin4p0.root",
+        "kFac": 0
+    },
+    "ZZTo4L": {
+        "EquiLumi":739.9,
+        "XS":1.325,
+        "file": "/hdfs/store/user/gparida/HHbbtt/Hadded_Skimmed_Files/Full_Production_CMSSW_13_0_13_Nov24_23/LooseSelection_MET_gt_80_nFatJet_gt_0_Skim/2017/ZZTo4L.root",
+        "kFac": 0
+    },
+    "MET_Run2017B": {
+        "EquiLumi": 0,
+        "XS": 0,
+        "file": "/hdfs/store/user/gparida/HHbbtt/Hadded_Skimmed_Files/Full_Production_CMSSW_13_0_13_Nov24_23/LooseSelection_MET_gt_80_nFatJet_gt_0_Skim/2017/MET/MET_Run2017B.root",
+        "kFac": 0
+    },
+    "MET_Run2017C": {
+        "EquiLumi": 0,
+        "XS": 0,
+        "file": "/hdfs/store/user/gparida/HHbbtt/Hadded_Skimmed_Files/Full_Production_CMSSW_13_0_13_Nov24_23/LooseSelection_MET_gt_80_nFatJet_gt_0_Skim/2017/MET/MET_Run2017C.root",
+        "kFac": 0
+    },
+    "MET_Run2017C_2": {
+        "EquiLumi": 0,
+        "XS": 0,
+        "file": "/hdfs/store/user/gparida/HHbbtt/Hadded_Skimmed_Files/Full_Production_CMSSW_13_0_13_Nov24_23/LooseSelection_MET_gt_80_nFatJet_gt_0_Skim/2017/MET/MET_Run2017C_2.root",
+        "kFac": 0
+    },
+    "MET_Run2017D": {
+        "EquiLumi": 0,
+        "XS": 0,
+        "file": "/hdfs/store/user/gparida/HHbbtt/Hadded_Skimmed_Files/Full_Production_CMSSW_13_0_13_Nov24_23/LooseSelection_MET_gt_80_nFatJet_gt_0_Skim/2017/MET/MET_Run2017D.root",
+        "kFac": 0
+    },
+    "MET_Run2017E": {
+        "EquiLumi": 0,
+        "XS": 0,
+        "file": "/hdfs/store/user/gparida/HHbbtt/Hadded_Skimmed_Files/Full_Production_CMSSW_13_0_13_Nov24_23/LooseSelection_MET_gt_80_nFatJet_gt_0_Skim/2017/MET/MET_Run2017E.root",
+        "kFac": 0
+    },
+    "MET_Run2017E_2": {
+        "EquiLumi": 0,
+        "XS": 0,
+        "file": "/hdfs/store/user/gparida/HHbbtt/Hadded_Skimmed_Files/Full_Production_CMSSW_13_0_13_Nov24_23/LooseSelection_MET_gt_80_nFatJet_gt_0_Skim/2017/MET/MET_Run2017E_2.root",
+        "kFac": 0
+    },
+    "MET_Run2017F": {
+        "EquiLumi": 0,
+        "XS": 0,
+        "file": "/hdfs/store/user/gparida/HHbbtt/Hadded_Skimmed_Files/Full_Production_CMSSW_13_0_13_Nov24_23/LooseSelection_MET_gt_80_nFatJet_gt_0_Skim/2017/MET/MET_Run2017F.root",
+        "kFac": 0
+    },
+    "MET_Run2017F_2": {
+        "EquiLumi": 0,
+        "XS": 0,
+        "file": "/hdfs/store/user/gparida/HHbbtt/Hadded_Skimmed_Files/Full_Production_CMSSW_13_0_13_Nov24_23/LooseSelection_MET_gt_80_nFatJet_gt_0_Skim/2017/MET/MET_Run2017F_2.root",
+        "kFac": 0
+    },
+    "MET_Run2017F_3": {
+        "EquiLumi": 0,
+        "XS": 0,
+        "file": "/hdfs/store/user/gparida/HHbbtt/Hadded_Skimmed_Files/Full_Production_CMSSW_13_0_13_Nov24_23/LooseSelection_MET_gt_80_nFatJet_gt_0_Skim/2017/MET/MET_Run2017F_3.root",
+        "kFac": 0
+    }
+}
